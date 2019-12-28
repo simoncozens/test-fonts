@@ -150,7 +150,7 @@ A
 
 ### [`CombiningMarkTest-Regular.otf`](https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf)
 
-This contains seven glyphs: e, o, a combining acute mark, a legacy (U+00B4) acute accent (self-describing), a combining dieresis mark, a precomposed e-acute (self-describing), and a precomposed o-dieresis (self-describing) which should never be seen because of a `ccmp` feature which substitutes it with `o dieresiscomb`. It does *not* contain precomposed o-acute or e-dieresis.
+This contains seven glyphs: e, o, a combining acute mark, a legacy (U+00B4) acute accent (self-describing), a combining dieresis mark, a precomposed e-acute (self-describing), and a precomposed o-dieresis (self-describing) which should never be seen because of a `ccmp` feature which substitutes it with `o dieresiscomb`. It does *not* contain precomposed o-acute or e-dieresis. `mark` and `mkmk` features are provided for positioning the marks.
 
 <style>
     @font-face {
@@ -166,6 +166,8 @@ The following div contains:
 * ë (U+00EB); its decomposed form ë (U+0065 U+0308)
 * ó (U+00F3); its decomposed form ó (U+006F U+0301)
 * ö (U+00F6); its decomposed form o‌̈ (U+006F U+0308).
+
+If the final two glyphs are rendered correctly, the dieresis should appear centered and high above the o (at the same level as the e-dieresis).
 
 <div class="testfont" style="font-family:'CombiningMarkTest-Regular'">
 é é ë ë ó ó ö ö
