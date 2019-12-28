@@ -18,12 +18,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xb9b8edda"/>
+    <checkSumAdjustment value="0x916b304c"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Sat Dec 28 21:47:38 2019"/>
-    <modified value="Sat Dec 28 21:47:38 2019"/>
+    <created value="Sat Dec 28 22:05:56 2019"/>
+    <modified value="Sat Dec 28 22:05:56 2019"/>
     <xMin value="-438"/>
     <yMin value="-200"/>
     <xMax value="576"/>
@@ -531,8 +531,8 @@
           endchar
         </CharString>
         <CharString name="eacute">
-          349 671 -102 callsubr
-          304 -500 -107 callsubr
+          349 711 -102 callsubr
+          304 -540 -107 callsubr
           250 -582 rmoveto
           -7 -2 -91 callsubr
           -1 -80 callsubr
@@ -1030,7 +1030,7 @@
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="-279"/>
-                <YCoordinate value="497"/>
+                <YCoordinate value="447"/>
               </MarkAnchor>
             </MarkRecord>
           </MarkArray>
@@ -1045,13 +1045,13 @@
             <BaseRecord index="1">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="351"/>
-                <YCoordinate value="766"/>
+                <YCoordinate value="806"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="2">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="307"/>
-                <YCoordinate value="500"/>
+                <YCoordinate value="550"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="3">
@@ -1091,7 +1091,7 @@
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="-279"/>
-                <YCoordinate value="497"/>
+                <YCoordinate value="447"/>
               </MarkAnchor>
             </MarkRecord>
           </Mark1Array>
