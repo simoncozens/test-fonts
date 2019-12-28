@@ -160,9 +160,14 @@ This contains seven glyphs: e, o, a combining acute mark, a legacy (U+00B4) acut
     }
 </style>
 
-The following div contains: é (U+00E9); its decomposed form é (U+0065 U+0301); ë (U+00EB); its decomposed form ë (U+0065 U+0308); ó (U+00F3); its decomposed form ó (U+006F U+0301); ö (U+00F6); its decomposed form o‌̈ (U+006F U+0308).
+The following div contains:
+
+* é (U+00E9); its decomposed form é (U+0065 U+0301)
+* ë (U+00EB); its decomposed form ë (U+0065 U+0308)
+* ó (U+00F3); its decomposed form ó (U+006F U+0301)
+* ö (U+00F6); its decomposed form o‌̈ (U+006F U+0308).
 
 <div class="testfont" style="font-family:'CombiningMarkTest-Regular'">
-é é ë ë ó ó ö o‌̈
+é é ë ë ó ó ö ö
 </div>
 
