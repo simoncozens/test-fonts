@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="3.40">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="space"/>
+    <GlyphID id="2" name="e"/>
+    <GlyphID id="3" name="eacute"/>
+    <GlyphID id="4" name="o"/>
+    <GlyphID id="5" name="odieresis"/>
+    <GlyphID id="6" name="uni0308"/>
+    <GlyphID id="7" name="acutecomb"/>
+    <GlyphID id="8" name="acute"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0xb9b8edda"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Sat Dec 28 21:47:38 2019"/>
+    <modified value="Sat Dec 28 21:47:38 2019"/>
+    <xMin value="-438"/>
+    <yMin value="-200"/>
+    <xMax value="576"/>
+    <yMax value="800"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="3"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="1000"/>
+    <descent value="-200"/>
+    <lineGap value="0"/>
+    <advanceWidthMax value="600"/>
+    <minLeftSideBearing value="-438"/>
+    <minRightSideBearing value="24"/>
+    <xMaxExtent value="576"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="9"/>
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="9"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="3"/>
+    <xAvgCharWidth value="585"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00001000"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="5"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="UKWN"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="776"/>
+    <sTypoAscender value="800"/>
+    <sTypoDescender value="-200"/>
+    <sTypoLineGap value="200"/>
+    <usWinAscent value="1000"/>
+    <usWinDescent value="200"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="1"/>
+  </OS_2>
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Combining Mark Test
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      1.000;UKWN;CombiningMarkTest-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Combining Mark Test Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      CombiningMarkTest-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Simon Cozens
+    </namerecord>
+    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      http://www.simon-cozens.org/
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Combining Mark Test
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.000;UKWN;CombiningMarkTest-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Combining Mark Test Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      CombiningMarkTest-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Simon Cozens
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      http://www.simon-cozens.org/
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0xb4" name="acute"/><!-- ACUTE ACCENT -->
+      <map code="0xe9" name="eacute"/><!-- LATIN SMALL LETTER E WITH ACUTE -->
+      <map code="0xf6" name="odieresis"/><!-- LATIN SMALL LETTER O WITH DIAERESIS -->
+      <map code="0x301" name="acutecomb"/><!-- COMBINING ACUTE ACCENT -->
+      <map code="0x308" name="uni0308"/><!-- COMBINING DIAERESIS -->
+    </cmap_format_4>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0xb4" name="acute"/><!-- ACUTE ACCENT -->
+      <map code="0xe9" name="eacute"/><!-- LATIN SMALL LETTER E WITH ACUTE -->
+      <map code="0xf6" name="odieresis"/><!-- LATIN SMALL LETTER O WITH DIAERESIS -->
+      <map code="0x301" name="acutecomb"/><!-- COMBINING ACUTE ACCENT -->
+      <map code="0x308" name="uni0308"/><!-- COMBINING DIAERESIS -->
+    </cmap_format_4>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <major value="1"/>
+    <minor value="0"/>
+    <CFFFont name="CombiningMarkTest-Regular">
+      <version value="001.000"/>
+      <Notice value="copyright missing"/>
+      <FullName value="Combining Mark Test Regular"/>
+      <Weight value="Regular"/>
+      <isFixedPitch value="0"/>
+      <ItalicAngle value="0"/>
+      <UnderlinePosition value="-100"/>
+      <UnderlineThickness value="50"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <FontMatrix value="0.001 0 0 0.001 0 0"/>
+      <FontBBox value="-438 -200 576 800"/>
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <BlueScale value="0.037"/>
+        <BlueShift value="7"/>
+        <BlueFuzz value="0"/>
+        <ForceBold value="0"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="600"/>
+        <nominalWidthX value="107"/>
+        <Subrs>
+          <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+          <CharString index="0">
+            rmoveto
+            -43 38 rlineto
+            -36 -45 -47 -14 -67 hhcurveto
+            -125 -54 53 127 hvcurveto
+            390 hlineto
+            184 -42 112 -178 -162 -75 -95 -173 -182 80 -85 168 104 46 29 42 50 vhcurveto
+            -219 405 rmoveto
+            104 48 -53 -125 9 hvcurveto
+            -323 hlineto
+            125 9 48 53 105 hhcurveto
+            return
+          </CharString>
+          <CharString index="1">
+            rmoveto
+            148 80 95 173 174 -80 93 -148 -149 -80 -93 -174 -173 80 -95 149 hvcurveto
+            59 vmoveto
+            -114 -49 63 146 147 49 62 114 113 49 -62 -147 -146 -49 -63 -113 hvcurveto
+            return
+          </CharString>
+          <CharString index="2">
+            21 11 14 25 25 -11 13 -21 -22 -11 -13 -25 -25 11 -14 22 hvcurveto
+            return
+          </CharString>
+          <CharString index="3">
+            rmoveto
+            -105 callsubr
+            150 hmoveto
+            -105 callsubr
+            return
+          </CharString>
+          <CharString index="4">
+            -1 -3 -3 hvcurveto
+            -2 -2 -1 -4 -5 vvcurveto
+            -4 1 -4 -99 callsubr
+            3 1 -89 callsubr
+            3 return
+          </CharString>
+          <CharString index="5">
+            rmoveto
+            92 5 -141 -123 -80 1 rlineto
+            return
+          </CharString>
+          <CharString index="6">
+            -81 callsubr
+            3 vhcurveto
+            4 4 return
+          </CharString>
+          <CharString index="7">
+            hhcurveto
+            4 2 1 2 2 hvcurveto
+            3 3 0 3 5 vvcurveto
+            5 return
+          </CharString>
+          <CharString index="8">
+            2 -2 vhcurveto
+            -3 return
+          </CharString>
+          <CharString index="9">
+            3 -1 -2 2 hvcurveto
+            3 -3 1 -3 -5 vvcurveto
+            -25 vlineto
+            return
+          </CharString>
+          <CharString index="10">
+            2 hvcurveto
+            1 hlineto
+            -95 callsubr
+            2 rrcurveto
+            1 2 return
+          </CharString>
+          <CharString index="11">
+            -5 vhcurveto
+            -5 3 4 -3 6 hhcurveto
+            6 4 3 5 return
+          </CharString>
+          <CharString index="12">
+            1 2 1 1 3 return
+          </CharString>
+          <CharString index="13">
+            -4 3 -6 hhcurveto
+            -6 -4 -3 -5 -3 hvcurveto
+            return
+          </CharString>
+          <CharString index="14">
+            4 vvcurveto
+            8 2 6 4 4 vhcurveto
+            4 4 return
+          </CharString>
+          <CharString index="15">
+            4 -1 4 -3 1 vhcurveto
+            return
+          </CharString>
+          <CharString index="16">
+            2 5 -5 hvcurveto
+            -4 4 return
+          </CharString>
+          <CharString index="17">
+            -77 callsubr
+            4 -4 return
+          </CharString>
+          <CharString index="18">
+            -1 4 hhcurveto
+            return
+          </CharString>
+          <CharString index="19">
+            hhcurveto
+            6 4 -2 -3 3 hvcurveto
+            4 -4 return
+          </CharString>
+          <CharString index="20">
+            -5 1 2 2 2 2 1 rlinecurve
+            return
+          </CharString>
+          <CharString index="21">
+            7 vhcurveto
+            7 4 7 3 9 hhcurveto
+            return
+          </CharString>
+          <CharString index="22">
+            1 2 -4 hvcurveto
+            -2 1 -3 4 return
+          </CharString>
+          <CharString index="23">
+            -2 -78 callsubr
+            return
+          </CharString>
+          <CharString index="24">
+            -5 -3 -3 vhcurveto
+            -4 return
+          </CharString>
+          <CharString index="25">
+            -5 -4 -4 vhcurveto
+            -5 return
+          </CharString>
+          <CharString index="26">
+            vvcurveto
+            6 2 5 3 return
+          </CharString>
+          <CharString index="27">
+            5 7 vvcurveto
+            8 return
+          </CharString>
+          <CharString index="28">
+            1 3 3 hvcurveto
+            return
+          </CharString>
+          <CharString index="29">
+            -2 hvcurveto
+            -2 -2 return
+          </CharString>
+          <CharString index="30">
+            -2 -4 4 hvcurveto
+            return
+          </CharString>
+          <CharString index="31">
+            -3 -1 -3 return
+          </CharString>
+          <CharString index="32">
+            1 -3 hhcurveto
+            return
+          </CharString>
+          <CharString index="33">
+            1 -4 hhcurveto
+            return
+          </CharString>
+          <CharString index="34">
+            -3 -1 -2 -2 hvcurveto
+            return
+          </CharString>
+          <CharString index="35">
+            -2 -2 -4 -7 vvcurveto
+            -1 vlineto
+            -6 2 -4 return
+          </CharString>
+          <CharString index="36">
+            5 3 4 vhcurveto
+            4 3 5 1 return
+          </CharString>
+        </Subrs>
+      </Private>
+      <CharStrings>
+        <CharString name=".notdef">
+          393 410 800 rmoveto
+          -317 -1000 317 hlineto
+          -77 933 rmoveto
+          -33 -66 -37 66 -33 -166 33 66 37 -65 33 vlineto
+          99 -129 rmoveto
+          -70 66 -34 -166 104 vlineto
+          66 -34 rmoveto
+          -33 -36 33 hlineto
+          100 -61 rmoveto
+          -33 -66 -70 -100 33 66 37 -66 33 vlineto
+          166 -60 rmoveto
+          -100 -166 34 133 66 vlineto
+          33 -122 rmoveto
+          -113 -166 113 33 -80 100 47 -33 -23 -34 56 vlineto
+          100 -173 rmoveto
+          -113 -166 113 vlineto
+          133 -33 rmoveto
+          -100 -47 100 hlineto
+          33 -56 rmoveto
+          -33 -32 vlineto
+          -70 -47 rlineto
+          102 -33 -166 33 hlineto
+          70 47 rlineto
+          -70 33 hlineto
+          endchar
+        </CharString>
+        <CharString name="acute">
+          370 618 -102 callsubr
+          51 -591 rmoveto
+          -14 -2 -10 -4 -7 vhcurveto
+          -7 -5 -6 -3 -9 hhcurveto
+          -9 -7 3 7 -4 hvcurveto
+          -5 7 -2 10 14 vvcurveto
+          14 2 10 5 -86 callsubr
+          8 7 -3 -7 5 hvcurveto
+          4 -7 2 -11 -13 vvcurveto
+          65 hmoveto
+          -14 -2 -10 -5 -7 vhcurveto
+          -7 -4 -7 -3 -9 hhcurveto
+          -9 -6 3 7 -5 hvcurveto
+          -4 7 -3 10 14 vvcurveto
+          14 3 10 4 -86 callsubr
+          9 6 -3 -7 5 hvcurveto
+          5 -7 2 -11 -13 vvcurveto
+          -198 40 rmoveto
+          -52 vlineto
+          -9 -3 -7 -5 -6 vhcurveto
+          -5 -6 -8 -2 -9 hhcurveto
+          -10 -8 2 5 -5 hvcurveto
+          -5 6 -3 7 9 vvcurveto
+          52 10 -52 vlineto
+          -7 2 -5 3 -3 vhcurveto
+          -4 4 5 -2 7 hhcurveto
+          7 5 2 4 4 hvcurveto
+          3 3 2 5 7 vvcurveto
+          52 vlineto
+          224 hmoveto
+          23 hlineto
+          11 8 -2 -3 4 hvcurveto
+          5 -3 3 -5 -7 vvcurveto
+          -5 -2 -4 -2 -3 vhcurveto
+          -3 -3 -4 -2 -5 -1 7 -1 4 -2 3 -4 rrcurveto
+          3 -3 1 -4 -5 vvcurveto
+          -8 -2 -5 -5 -4 vhcurveto
+          -4 -5 -7 -2 -9 hhcurveto
+          -28 hlineto
+          125 18 rmoveto
+          -12 -18 -10 18 -38 8 hlineto
+          38 54 rlineto
+          10 -53 12 hlineto
+          -249 13 rmoveto
+          -12 1 -8 3 -96 callsubr
+          2 hvcurveto
+          3 5 1 9 11 vvcurveto
+          11 -1 9 -3 5 vhcurveto
+          5 -2 -94 callsubr
+          -3 -5 -1 -9 -11 vvcurveto
+          64 hmoveto
+          -12 2 -8 2 -96 callsubr
+          3 hvcurveto
+          2 5 2 9 11 vvcurveto
+          11 -2 9 -2 5 vhcurveto
+          5 -3 -94 callsubr
+          -2 -5 -2 -9 -11 vvcurveto
+          70 6 rmoveto
+          15 hlineto
+          6 5 1 2 3 hvcurveto
+          3 2 1 3 5 vvcurveto
+          -92 callsubr
+          2 -4 -5 1 -6 hhcurveto
+          -14 hlineto
+          93 -44 rmoveto
+          25 vlineto
+          5 0 6 1 7 vhcurveto
+          -1 hlineto
+          -1 -1 -1 -1 -2 vhcurveto
+          -1 -2 -1 -2 -1 vvcurveto
+          -25 -34 rlineto
+          -242 16 rmoveto
+          23 -8 -23 -23 -8 23 -22 8 22 24 8 hlineto
+          178 -30 rmoveto
+          -29 17 vlineto
+          6 5 -79 callsubr
+          3 2 2 4 5 vvcurveto
+          5 -2 4 -3 2 vhcurveto
+          2 -4 -5 1 -6 hhcurveto
+          endchar
+        </CharString>
+        <CharString name="acutecomb">
+          -107 -230 618 -102 callsubr
+          endchar
+        </CharString>
+        <CharString name="e">
+          524 54 -107 callsubr
+          endchar
+        </CharString>
+        <CharString name="eacute">
+          349 671 -102 callsubr
+          304 -500 -107 callsubr
+          250 -582 rmoveto
+          -7 -2 -91 callsubr
+          -1 -80 callsubr
+          1 6 4 4 vhcurveto
+          4 4 3 2 7 hhcurveto
+          6 4 -77 callsubr
+          2 vlineto
+          22 7 -65 -6 vlineto
+          -1 7 rlineto
+          -5 -3 -5 -2 -6 hhcurveto
+          -493 hmoveto
+          -6 -5 2 5 -3 hvcurveto
+          -1 hlineto
+          1 -1 rlineto
+          -26 -7 66 6 vlineto
+          1 -6 2 2 2 3 3 1 rlinecurve
+          7 1 rlineto
+          7 3 -90 callsubr
+          1 -6 -8 vvcurveto
+          -7 -1 -82 callsubr
+          -5 -2 -2 -7 hhcurveto
+          52 47 rmoveto
+          5 hlineto
+          -1 -7 -4 1 rlineto
+          -2 -73 callsubr
+          -5 -5 rlineto
+          -2 -2 -3 -4 vvcurveto
+          -24 -7 46 6 vlineto
+          1 -8 2 3 2 2 3 2 rlinecurve
+          1 2 3 1 2 hhcurveto
+          33 -47 rmoveto
+          -7 -4 -91 callsubr
+          -3 -80 callsubr
+          2 5 5 5 vhcurveto
+          3 3 4 3 7 -88 callsubr
+          2 -5 -6 vvcurveto
+          -5 -32 vlineto
+          -5 1 -4 3 -2 vhcurveto
+          -2 3 3 -2 5 hhcurveto
+          6 hlineto
+          8 2 rlineto
+          -6 vlineto
+          -3 -1 -2 0 -1 -2 rrcurveto
+          38 hmoveto
+          -7 -5 2 4 -4 hvcurveto
+          -5 5 0 -80 callsubr
+          3 6 2 4 vhcurveto
+          5 3 6 1 8 hhcurveto
+          2 2 0 -1 2 hvcurveto
+          3 1 0 -1 1 hvcurveto
+          -2 -7 rlineto
+          2 -4 -3 1 -2 hhcurveto
+          -5 -4 -1 -4 -1 hvcurveto
+          -3 -76 callsubr
+          -7 vvcurveto
+          -5 1 -5 3 -2 vhcurveto
+          -3 1 4 -89 callsubr
+          5 4 0 2 3 hvcurveto
+          -6 vlineto
+          -3 -3 -4 0 -5 hhcurveto
+          62 23 rmoveto
+          -7 -2 -5 -3 -4 vhcurveto
+          -6 -4 -5 -1 -7 hhcurveto
+          -5 -2 -85 callsubr
+          -3 3 rrcurveto
+          -1 3 -1 5 -93 callsubr
+          5 2 6 hhcurveto
+          7 5 -90 callsubr
+          1 -6 -8 vvcurveto
+          69 -23 rmoveto
+          30 vlineto
+          7 -2 4 -7 -3 -4 -1 -3 -1 vhcurveto
+          -3 -2 -1 -4 -5 vvcurveto
+          -26 -7 30 vlineto
+          3 0 3 -2 2 vhcurveto
+          2 -2 -2 -74 callsubr
+          -3 -4 -1 -3 -78 callsubr
+          0 -4 -7 vvcurveto
+          -24 -8 46 7 -6 1 vlineto
+          -95 callsubr
+          2 rrcurveto
+          2 3 2 0 3 hhcurveto
+          7 5 -2 -5 -97 callsubr
+          4 1 3 hhcurveto
+          5 4 -1 -3 2 hvcurveto
+          2 -3 2 -4 -5 vvcurveto
+          -31 vlineto
+          35 hmoveto
+          -5 -5 2 5 -4 hvcurveto
+          -27 -7 66 6 vlineto
+          1 -6 3 2 1 3 3 1 rlinecurve
+          2 3 1 4 hhcurveto
+          5 5 -2 -4 2 hvcurveto
+          3 -5 2 -5 -8 vvcurveto
+          -7 -1 -82 callsubr
+          -2 -5 -2 -7 hhcurveto
+          71 23 rmoveto
+          -7 -2 -82 callsubr
+          -5 -4 -2 -6 hhcurveto
+          -4 -4 -85 callsubr
+          -1 3 rrcurveto
+          -1 4 -2 4 -93 callsubr
+          4 2 7 hhcurveto
+          6 5 -90 callsubr
+          2 -6 -8 vvcurveto
+          42 -10 rmoveto
+          -4 -3 -3 -2 -3 vhcurveto
+          -1 -4 -4 -2 -6 hhcurveto
+          -5 -5 0 3 -4 hvcurveto
+          6 vlineto
+          -2 5 5 -89 callsubr
+          4 4 1 1 1 hvcurveto
+          1 1 1 2 2 vvcurveto
+          1 -1 2 -1 1 vhcurveto
+          -1 1 -4 1 -4 3 -4 1 -3 1 -2 2 -4 4 rcurveline
+          -1 1 0 2 2 vvcurveto
+          3 1 4 4 1 vhcurveto
+          3 3 4 1 5 hhcurveto
+          5 5 -1 -3 5 hvcurveto
+          -3 -5 rlineto
+          2 -5 -4 -75 callsubr
+          -3 -2 1 -2 -3 hvcurveto
+          -2 -1 1 -2 -1 vvcurveto
+          -3 0 -1 1 -1 vhcurveto
+          1 4 -3 -1 5 hvcurveto
+          4 -1 2 -2 2 -1 3 -1 0 -1 2 -2 rrcurveto
+          -2 1 -1 -3 vvcurveto
+          30 -13 rmoveto
+          -7 -4 -91 callsubr
+          -2 -80 callsubr
+          1 5 5 5 vhcurveto
+          3 3 5 3 6 hhcurveto
+          6 4 -2 -3 4 hvcurveto
+          4 -3 1 -6 -6 vvcurveto
+          -5 -32 vlineto
+          -5 3 -4 1 -2 vhcurveto
+          -3 3 3 -1 5 hhcurveto
+          7 hlineto
+          2 1 3 0 2 1 rrcurveto
+          -6 vlineto
+          -2 -1 -1 0 -3 -2 rrcurveto
+          -457 41 rmoveto
+          -5 -76 callsubr
+          -2 hvcurveto
+          -1 -72 callsubr
+          1 -2 vhcurveto
+          -3 2 4 -89 callsubr
+          4 4 1 3 1 hvcurveto
+          1 3 3 4 5 vvcurveto
+          7 -2 3 -2 3 vhcurveto
+          4 -1 -4 -74 callsubr
+          84 hmoveto
+          -4 -76 callsubr
+          -2 hvcurveto
+          -1 -2 -2 -3 -1 -4 rrcurveto
+          24 hlineto
+          -92 callsubr
+          3 -1 -3 -75 callsubr
+          76 -18 rmoveto
+          -5 1 -5 -99 callsubr
+          3 2 -1 5 hhcurveto
+          4 4 -79 callsubr
+          1 2 1 5 5 vvcurveto
+          7 -1 3 -1 4 vhcurveto
+          3 -3 -4 -74 callsubr
+          -8 -5 -6 -12 hvcurveto
+          145 18 rmoveto
+          -4 -76 callsubr
+          -2 hvcurveto
+          -2 -72 callsubr
+          -99 callsubr
+          2 3 -1 5 hhcurveto
+          4 3 1 3 2 hvcurveto
+          1 3 2 4 5 vvcurveto
+          7 -2 3 -1 3 vhcurveto
+          4 -1 -4 1 -5 hhcurveto
+          38 -18 rmoveto
+          -5 1 -5 -99 callsubr
+          2 4 -89 callsubr
+          5 2 -79 callsubr
+          2 2 2 5 5 vvcurveto
+          7 0 3 -4 4 vhcurveto
+          3 -3 -2 1 -5 hhcurveto
+          -9 -4 -6 -12 hvcurveto
+          104 18 rmoveto
+          -4 -2 -1 -3 -3 hvcurveto
+          -1 -1 -2 -4 -4 vvcurveto
+          23 hlineto
+          -92 callsubr
+          3 -1 -2 -74 callsubr
+          48 -34 rmoveto
+          4 4 1 1 2 hvcurveto
+          1 3 2 5 5 vvcurveto
+          1 vlineto
+          7 -2 5 -1 2 vhcurveto
+          3 -2 -4 -74 callsubr
+          -4 -4 -1 -4 -1 hvcurveto
+          -2 -3 -2 -3 -7 vvcurveto
+          -5 2 -5 -99 callsubr
+          1 4 -89 callsubr
+          endchar
+        </CharString>
+        <CharString name="o">
+          305 -17 -106 callsubr
+          endchar
+        </CharString>
+        <CharString name="odieresis">
+          232 573 -104 callsubr
+          -77 -590 -106 callsubr
+          49 319 rmoveto
+          3 hlineto
+          3 -4 hlineto
+          -1 -1 0 0 -2 hhcurveto
+          -3 hlineto
+          -8 -4 3 8 hvcurveto
+          22 -5 4 vlineto
+          6 2 2 8 rlineto
+          4 -9 11 -5 -11 -22 hlineto
+          -2 0 -1 1 -2 vhcurveto
+          -1 1 1 0 2 hhcurveto
+          -74 -5 rmoveto
+          25 vlineto
+          3 0 2 -1 2 vhcurveto
+          2 -1 -3 0 -3 hhcurveto
+          -4 -76 callsubr
+          -1 hvcurveto
+          -2 -1 -1 -4 -5 vvcurveto
+          -20 -6 38 4 vlineto
+          2 -87 callsubr
+          7 1 rlineto
+          5 -98 callsubr
+          45 19 rmoveto
+          -6 -2 -83 callsubr
+          -4 -3 -1 -6 hhcurveto
+          -3 -4 0 2 -2 hvcurveto
+          -3 1 -2 3 -1 3 rrcurveto
+          -1 3 -2 4 3 vvcurveto
+          6 1 5 4 4 vhcurveto
+          3 3 5 2 5 -88 callsubr
+          1 -5 -6 vvcurveto
+          -29 hmoveto
+          -5 1 -3 2 -3 vhcurveto
+          -2 1 4 -1 3 -100 callsubr
+          -1 4 -2 2 vhcurveto
+          3 -3 -1 -74 callsubr
+          -7 -4 -5 -10 hvcurveto
+          5 -104 rmoveto
+          24 vlineto
+          3 -1 3 -1 1 vhcurveto
+          2 -2 -2 -75 callsubr
+          -4 -2 -2 -84 callsubr
+          -1 -4 -5 vvcurveto
+          -19 -6 54 6 -21 vlineto
+          1 2 2 1 2 1 rrcurveto
+          1 2 3 0 2 hhcurveto
+          4 4 0 -3 3 hvcurveto
+          2 -2 1 -4 -4 vvcurveto
+          -25 vlineto
+          -45 4 rmoveto
+          1 1 0 1 1 hvcurveto
+          2 -5 -3 hlineto
+          -1 -2 0 -2 -7 -4 4 8 vhcurveto
+          22 -5 3 vlineto
+          5 2 3 8 rlineto
+          4 -8 11 -5 -11 -22 hlineto
+          -2 0 -2 1 -1 vhcurveto
+          -2 2 1 0 2 hhcurveto
+          73 -5 rmoveto
+          -6 -4 2 3 -4 hvcurveto
+          -3 4 -2 5 6 -101 callsubr
+          3 1 6 hhcurveto
+          5 3 -1 -3 3 hvcurveto
+          3 -3 1 -4 -6 vvcurveto
+          -3 -26 vlineto
+          -5 1 -3 -99 callsubr
+          3 2 0 5 hhcurveto
+          5 hlineto
+          2 2 1 1 2 hvcurveto
+          -5 vlineto
+          -5 -2 rlineto
+          -1 -2 -3 0 -2 hhcurveto
+          -1 35 rmoveto
+          -3 -3 -2 -84 callsubr
+          0 -2 -1 -4 rrcurveto
+          20 hlineto
+          4 -1 3 -2 1 vhcurveto
+          1 -2 -2 3 -2 hhcurveto
+          -2 -120 rmoveto
+          25 vlineto
+          6 -3 3 -5 -4 -2 -1 -2 -2 vhcurveto
+          -2 -2 -1 -4 -3 vvcurveto
+          -22 -6 25 vlineto
+          3 0 2 -2 2 vhcurveto
+          1 -1 -2 -75 callsubr
+          -3 -3 -1 -2 -1 hvcurveto
+          -2 -76 callsubr
+          -5 vvcurveto
+          -20 -6 38 5 vlineto
+          1 -5 rlineto
+          0 vlineto
+          5 5 rlineto
+          2 2 2 -1 2 hhcurveto
+          7 3 -2 -4 -97 callsubr
+          2 0 3 hhcurveto
+          4 -98 callsubr
+          -108 hmoveto
+          -6 -4 1 3 -3 hvcurveto
+          -4 4 -1 5 6 vvcurveto
+          6 2 -71 callsubr
+          5 hhcurveto
+          6 hlineto
+          4 -2 -2 -5 rlineto
+          1 -3 -2 -75 callsubr
+          -3 -2 -103 callsubr
+          3 1 2 4 hvcurveto
+          -7 vlineto
+          -1 -3 -3 0 -4 hhcurveto
+          34 hmoveto
+          -5 -5 1 3 -3 hvcurveto
+          -4 4 0 5 6 vvcurveto
+          6 1 -71 callsubr
+          6 hhcurveto
+          5 hlineto
+          5 -2 -2 -5 rlineto
+          1 -3 -3 -75 callsubr
+          -4 -1 -103 callsubr
+          4 1 2 3 hvcurveto
+          -7 vlineto
+          -1 -2 -4 0 -4 hhcurveto
+          104 hmoveto
+          -5 -5 1 4 -2 hvcurveto
+          -1 hlineto
+          1 -1 rlineto
+          -21 -6 55 5 vlineto
+          1 -87 callsubr
+          1 2 2 0 3 hhcurveto
+          4 5 -1 -4 2 hvcurveto
+          2 -4 3 -4 -7 vvcurveto
+          -6 -2 -83 callsubr
+          -2 -5 -1 -4 hhcurveto
+          -2 34 rmoveto
+          -3 -73 callsubr
+          -3 -3 1 -3 -5 vvcurveto
+          -1 vlineto
+          -5 -1 -3 3 -3 vhcurveto
+          -2 2 3 -89 callsubr
+          3 1 -79 callsubr
+          2 2 1 4 5 vvcurveto
+          4 -1 4 -2 2 vhcurveto
+          3 -3 -1 -74 callsubr
+          -93 -100 rmoveto
+          -6 -1 -83 callsubr
+          -4 -4 -2 -5 hhcurveto
+          -4 -3 1 1 -3 hvcurveto
+          -6 7 rlineto
+          -1 3 -1 4 4 -101 callsubr
+          4 2 5 hhcurveto
+          5 4 -77 callsubr
+          3 -3 1 -5 -6 vvcurveto
+          37 -19 rmoveto
+          24 vlineto
+          3 -1 3 -2 1 vhcurveto
+          2 -1 -2 0 -3 hhcurveto
+          -4 -3 -1 -84 callsubr
+          0 -3 -5 vvcurveto
+          -20 -7 38 6 -5 1 vlineto
+          -95 callsubr
+          1 rrcurveto
+          1 2 2 1 3 hhcurveto
+          5 3 -1 -3 2 hvcurveto
+          2 -3 2 -2 -5 vvcurveto
+          -25 vlineto
+          28 -1 rmoveto
+          -6 -4 2 4 -4 hvcurveto
+          -3 3 -2 5 6 -101 callsubr
+          3 2 5 hhcurveto
+          5 4 -2 -3 2 hvcurveto
+          2 -4 3 -3 -5 vvcurveto
+          -5 -26 vlineto
+          -4 1 -3 2 -2 vhcurveto
+          -2 2 3 -89 callsubr
+          6 hlineto
+          2 2 1 1 2 hvcurveto
+          -6 vlineto
+          -6 -1 rlineto
+          -2 -2 -1 -2 hhcurveto
+          -2 34 rmoveto
+          -3 -2 0 -84 callsubr
+          -1 -3 -3 vvcurveto
+          20 hlineto
+          3 -2 3 -1 2 vhcurveto
+          3 -1 -76 callsubr
+          hhcurveto
+          -98 -14 rmoveto
+          -5 2 -3 2 -3 vhcurveto
+          -2 1 3 -1 4 -100 callsubr
+          0 3 -3 3 vhcurveto
+          2 -2 -3 -75 callsubr
+          -8 -4 -4 -10 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="space">
+          endchar
+        </CharString>
+        <CharString name="uni0308">
+          -107 -405 543 -104 callsubr
+          endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef Format="2">
+      <ClassDef glyph="acutecomb" class="3"/>
+      <ClassDef glyph="e" class="1"/>
+      <ClassDef glyph="eacute" class="1"/>
+      <ClassDef glyph="o" class="1"/>
+      <ClassDef glyph="odieresis" class="1"/>
+      <ClassDef glyph="uni0308" class="3"/>
+    </GlyphClassDef>
+    <MarkAttachClassDef Format="2">
+      <ClassDef glyph="acutecomb" class="1"/>
+      <ClassDef glyph="uni0308" class="1"/>
+    </MarkAttachClassDef>
+  </GDEF>
+
+  <GPOS>
+    <Version value="0x00010000"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=2 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="mark"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="mkmk"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=2 -->
+      <Lookup index="0">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <MarkBasePos index="0" Format="1">
+          <MarkCoverage Format="1">
+            <Glyph value="uni0308"/>
+            <Glyph value="acutecomb"/>
+          </MarkCoverage>
+          <BaseCoverage Format="2">
+            <Glyph value="e"/>
+            <Glyph value="eacute"/>
+            <Glyph value="o"/>
+            <Glyph value="odieresis"/>
+          </BaseCoverage>
+          <!-- ClassCount=1 -->
+          <MarkArray>
+            <!-- MarkCount=2 -->
+            <MarkRecord index="0">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="-330"/>
+                <YCoordinate value="470"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="1">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="-279"/>
+                <YCoordinate value="497"/>
+              </MarkAnchor>
+            </MarkRecord>
+          </MarkArray>
+          <BaseArray>
+            <!-- BaseCount=4 -->
+            <BaseRecord index="0">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="300"/>
+                <YCoordinate value="550"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="1">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="351"/>
+                <YCoordinate value="766"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="2">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="307"/>
+                <YCoordinate value="500"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="3">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="307"/>
+                <YCoordinate value="650"/>
+              </BaseAnchor>
+            </BaseRecord>
+          </BaseArray>
+        </MarkBasePos>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="6"/>
+        <LookupFlag value="256"/>
+        <!-- SubTableCount=1 -->
+        <MarkMarkPos index="0" Format="1">
+          <Mark1Coverage Format="1">
+            <Glyph value="uni0308"/>
+            <Glyph value="acutecomb"/>
+          </Mark1Coverage>
+          <Mark2Coverage Format="2">
+            <Glyph value="uni0308"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="acute"/>
+          </Mark2Coverage>
+          <!-- ClassCount=1 -->
+          <Mark1Array>
+            <!-- MarkCount=2 -->
+            <MarkRecord index="0">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="-330"/>
+                <YCoordinate value="470"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="1">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="-279"/>
+                <YCoordinate value="497"/>
+              </MarkAnchor>
+            </MarkRecord>
+          </Mark1Array>
+          <Mark2Array>
+            <!-- Mark2Count=3 -->
+            <Mark2Record index="0">
+              <Mark2Anchor index="0" Format="1">
+                <XCoordinate value="-331"/>
+                <YCoordinate value="620"/>
+              </Mark2Anchor>
+            </Mark2Record>
+            <Mark2Record index="1">
+              <Mark2Anchor index="0" Format="1">
+                <XCoordinate value="-229"/>
+                <YCoordinate value="713"/>
+              </Mark2Anchor>
+            </Mark2Record>
+            <Mark2Record index="2">
+              <Mark2Anchor index="0" Format="1">
+                <XCoordinate value="372"/>
+                <YCoordinate value="713"/>
+              </Mark2Anchor>
+            </Mark2Record>
+          </Mark2Array>
+        </MarkMarkPos>
+      </Lookup>
+    </LookupList>
+  </GPOS>
+
+  <GSUB>
+    <Version value="0x00010000"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=1 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="ccmp"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=1 -->
+      <Lookup index="0">
+        <LookupType value="2"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <MultipleSubst index="0" Format="1">
+          <Substitution in="odieresis" out="o,uni0308"/>
+        </MultipleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="93"/>
+    <mtx name="acute" width="600" lsb="97"/>
+    <mtx name="acutecomb" width="0" lsb="-359"/>
+    <mtx name="e" width="600" lsb="76"/>
+    <mtx name="eacute" width="600" lsb="41"/>
+    <mtx name="o" width="600" lsb="76"/>
+    <mtx name="odieresis" width="600" lsb="76"/>
+    <mtx name="space" width="600" lsb="0"/>
+    <mtx name="uni0308" width="0" lsb="-438"/>
+  </hmtx>
+
+  <DSIG>
+    <!-- note that the Digital Signature will be invalid after recompilation! -->
+    <tableHeader flag="0x0" numSigs="0" version="1"/>
+  </DSIG>
+
+</ttFont>

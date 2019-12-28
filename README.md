@@ -131,3 +131,38 @@ This contains the glyphs `A` and `B` with CFF outlines, but also with [`sbix`](h
 <div class="testfont" style="font-family:'CFF and SBIX'">
 A B
 </div>
+
+### [`CBDT.otf`](https://simoncozens.github.io/test-fonts/CBDT.otf)
+
+This contains the glyph `A` with a CBDT color bitmap image.
+
+<style>
+    @font-face {
+        font-family: "CBDT";
+        /*src: url(https://simoncozens.github.io/test-fonts/CBDT.otf?raw=true);*/
+        src: url(CBDT.otf);
+    }
+</style>
+
+<div class="testfont" style="font-family:'CBDT'">
+A
+</div>
+
+### [`CombiningMarkTest-Regular.otf`](https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf)
+
+This contains seven glyphs: e, o, a combining acute mark, a legacy (U+00B4) acute accent (self-describing), a combining dieresis mark, a precomposed e-acute (self-describing), and a precomposed o-dieresis (self-describing) which should never be seen because of a `ccmp` feature which substitutes it with `o dieresiscomb`. It does *not* contain precomposed o-acute or e-dieresis.
+
+<style>
+    @font-face {
+        font-family: "CombiningMarkTest-Regular";
+        /*src: url(https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf?raw=true);*/
+        src: url(CombiningMarkTest-Regular.otf);
+    }
+</style>
+
+The following div contains: é (U+00E9); its decomposed form é (U+0065 U+0301); ë (U+00EB); its decomposed form ë (U+0065 U+0308); ó (U+00F3); its decomposed form ó (U+006F U+0301); ö (U+00F6); its decomposed form o‌̈ (U+006F U+0308).
+
+<div class="testfont" style="font-family:'CombiningMarkTest-Regular'">
+é é ë ë ó ó ö o‌̈
+</div>
+
