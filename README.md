@@ -155,8 +155,7 @@ This contains seven glyphs: e, o, a combining acute mark, a legacy (U+00B4) acut
 <style>
     @font-face {
         font-family: "CombiningMarkTest-Regular";
-        /*src: url(https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf?raw=true);*/
-        src: url(CombiningMarkTest-Regular.otf);
+        src: url(https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf?raw=true);
     }
 </style>
 
@@ -171,5 +170,47 @@ If the final two glyphs are rendered correctly, the dieresis should appear cente
 
 <div class="testfont" style="font-family:'CombiningMarkTest-Regular'">
 é é ë ë ó ó ö ö
+</div>
+
+### [`BaselineTest-Regular-with-BASE.otf`](https://simoncozens.github.io/test-fonts/BaselineTest-Regular-with-BASE.otf)
+
+### [`BaselineTest-Regular-without-BASE.otf`](https://simoncozens.github.io/test-fonts/CombiningMarkTest-Regular.otf)
+
+These two fonts test the processing of the OpenType BASE table. Both contain two glyphs, L and 道. The "with BASE" version contains the following BASE table:
+
+```
+table BASE { 
+    HorizAxis.BaseTagList ideo romn ;
+    HorizAxis.BaseScriptList
+       latn romn -310 0,
+       hani ideo -310 0;
+} BASE;
+```
+
+Here is the "with" version:
+
+<style>
+    @font-face {
+        font-family: "BaselineTest-BASE";
+        src: url(https://simoncozens.github.io/test-fonts/BaselineTest-Regular-with-BASE.otf?raw=true);
+    }
+</style>
+
+<div class="testfont" style="font-family:'BaselineTest-BASE'">
+L道
+</div>
+
+
+Here is the "without" version:
+
+<style>
+    @font-face {
+        font-family: "BaselineTest-no-BASE";
+        src: url(https://simoncozens.github.io/test-fonts/BaselineTest-Regular-without-BASE.otf?raw=true);
+    }
+</style>
+
+<div class="testfont" style="font-family:'BaselineTest-no-BASE'">
+L道
 </div>
 

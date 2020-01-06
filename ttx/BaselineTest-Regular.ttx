@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="3.40">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="space"/>
+    <GlyphID id="2" name="L"/>
+    <GlyphID id="3" name="uni9053"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0x44ad7a4b"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Mon Jan  6 13:54:03 2020"/>
+    <modified value="Mon Jan  6 13:54:03 2020"/>
+    <xMin value="5"/>
+    <yMin value="-200"/>
+    <xMax value="1000"/>
+    <yMax value="800"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="3"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="1000"/>
+    <descent value="-200"/>
+    <lineGap value="0"/>
+    <advanceWidthMax value="1000"/>
+    <minLeftSideBearing value="5"/>
+    <minRightSideBearing value="0"/>
+    <xMaxExtent value="1000"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="4"/>
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="4"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="3"/>
+    <xAvgCharWidth value="693"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00001000"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="5"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="UKWN"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="36947"/>
+    <sTypoAscender value="800"/>
+    <sTypoDescender value="-200"/>
+    <sTypoLineGap value="200"/>
+    <usWinAscent value="1000"/>
+    <usWinDescent value="200"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Baseline Test
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      1.000;UKWN;BaselineTest-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Baseline Test Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BaselineTest-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Simon Cozens
+    </namerecord>
+    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      http://www.simon-cozens.org/
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Baseline Test
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.000;UKWN;BaselineTest-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Baseline Test Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      BaselineTest-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Simon Cozens
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      http://www.simon-cozens.org/
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x9053" name="uni9053"/><!-- CJK UNIFIED IDEOGRAPH-9053 -->
+    </cmap_format_4>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x9053" name="uni9053"/><!-- CJK UNIFIED IDEOGRAPH-9053 -->
+    </cmap_format_4>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <major value="1"/>
+    <minor value="0"/>
+    <CFFFont name="BaselineTest-Regular">
+      <version value="001.000"/>
+      <Notice value="copyright missing"/>
+      <FullName value="Baseline Test Regular"/>
+      <Weight value="Regular"/>
+      <isFixedPitch value="0"/>
+      <ItalicAngle value="0"/>
+      <UnderlinePosition value="-100"/>
+      <UnderlineThickness value="50"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <FontMatrix value="0.001 0 0 0.001 0 0"/>
+      <FontBBox value="5 -200 1000 800"/>
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <BlueScale value="0.037"/>
+        <BlueShift value="7"/>
+        <BlueFuzz value="0"/>
+        <ForceBold value="0"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="0"/>
+        <nominalWidthX value="0"/>
+      </Private>
+      <CharStrings>
+        <CharString name=".notdef">
+          500 410 800 rmoveto
+          -317 -1000 317 hlineto
+          -77 933 rmoveto
+          -33 -66 -37 66 -33 -166 33 66 37 -65 33 vlineto
+          99 -129 rmoveto
+          -70 66 -34 -166 104 vlineto
+          66 -34 rmoveto
+          -33 -36 33 hlineto
+          100 -61 rmoveto
+          -33 -66 -70 -100 33 66 37 -66 33 vlineto
+          166 -60 rmoveto
+          -100 -166 34 133 66 vlineto
+          33 -122 rmoveto
+          -113 -166 113 33 -80 100 47 -33 -23 -34 56 vlineto
+          100 -173 rmoveto
+          -113 -166 113 vlineto
+          133 -33 rmoveto
+          -100 -47 100 hlineto
+          33 -56 rmoveto
+          -33 -32 vlineto
+          -70 -47 rlineto
+          102 -33 -166 33 hlineto
+          70 47 rlineto
+          -70 33 hlineto
+          endchar
+        </CharString>
+        <CharString name="L">
+          673 200 150 rmoveto
+          550 -150 -700 573 150 vlineto
+          endchar
+        </CharString>
+        <CharString name="space">
+          600 endchar
+        </CharString>
+        <CharString name="uni9053">
+          1000 438 592 rmoveto
+          3 105 5 93 hhcurveto
+          -1 -4 -1 -3 -1 -2 -12 -23 -7 -13 -2 -8 rrcurveto
+          -1 -31 -30 -1 -36 hhcurveto
+          -20 -55 17 -19 hvcurveto
+          -1 -415 rlineto
+          -7 -4 -32 -7 vvcurveto
+          -21 19 -16 17 15 11 1 15 5 vhcurveto
+          -7 8 17 -2 33 hhcurveto
+          92 124 9 3 8 hvcurveto
+          58 -21 48 9 48 vvcurveto
+          -1 276 rlineto
+          17 5 63 22 vvcurveto
+          65 -17 0 -68 vhcurveto
+          -44 -28 5 -44 hhcurveto
+          -14 hlineto
+          4 14 3 13 1 9 1 5 -1 5 -2 6 rrcurveto
+          -3 95 111 -8 9 hhcurveto
+          23 16 10 50 46 -22 -15 -18 -3 hvcurveto
+          -1 -7 -42 0 -53 hhcurveto
+          1 1 0 0 vhcurveto
+          28 17 18 29 22 vvcurveto
+          19 -10 27 -15 -13 vhcurveto
+          -22 -19 -33 -34 -68 -49 rrcurveto
+          -13 -13 -1 -13 hhcurveto
+          -14 -15 -1 -1 -15 hvcurveto
+          -1 8 -5 8 -5 5 rrcurveto
+          27 -24 -34 46 -33 hhcurveto
+          -13 -13 -4 -18 -19 37 1 13 -37 hvcurveto
+          3 -7 2 -7 3 -6 rrcurveto
+          -2 -60 -47 -3 -1 hhcurveto
+          -17 -3 -13 -17 -16 3 -24 17 hvcurveto
+          -273 73 rmoveto
+          67 -36 14 -108 55 -12 rrcurveto
+          28 -6 32 17 28 vvcurveto
+          57 -128 126 -65 -25 -11 -18 -15 -16 16 -8 17 -9 vhcurveto
+          635 -211 rmoveto
+          7 -1 -21 -21 hvcurveto
+          -4 0 -8 -10 vvcurveto
+          -2 hlineto
+          -48 3 2 -1 -48 hvcurveto
+          -1 -61 -76 -9 -61 hhcurveto
+          61 vlineto
+          6 12 10 48 -1 vhcurveto
+          -1 44 26 4 43 hhcurveto
+          44 26 -5 -1 44 hvcurveto
+          200 -450 rmoveto
+          -529 hlineto
+          -90 24 -96 36 14 vvcurveto
+          22 12 57 4 21 vhcurveto
+          30 157 -6 35 -25 11 -31 14 -104 -14 -32 -7 rrcurveto
+          -22 -5 -9 -9 -14 vvcurveto
+          -17 14 -20 17 2 vhcurveto
+          65 6 rlineto
+          10 1 14 -4 -28 vvcurveto
+          -36 -23 -126 -16 -59 vhcurveto
+          -21 -17 -38 -18 -26 -26 rrcurveto
+          -93 -8 86 hlineto
+          -12 -15 -9 -19 -22 vvcurveto
+          -31 17 -3 14 -1 vhcurveto
+          27 -2 18 8 24 35 13 19 21 13 36 15 90 -26 79 -64 160 -9 73 -4 199 2 109 14 8 1 4 4 1 6 10 62 rcurveline
+          1 7 -2 6 -4 4 rrcurveto
+          32 hlineto
+          -198 311 rmoveto
+          -2 -9 0 -12 -1 -14 rrcurveto
+          -43 1 2 -1 -46 hvcurveto
+          -1 -61 -76 -9 -61 hhcurveto
+          41 vlineto
+          62 45 12 1 61 hvcurveto
+          46 1 30 -11 45 3 rrcurveto
+          -4 -163 rmoveto
+          -40 -7 -187 11 -58 -8 rrcurveto
+          43 vlineto
+          62 45 12 1 61 hvcurveto
+          45 1 29 -7 44 -1 rrcurveto
+          -17 0 -16 -1 -12 vhcurveto
+          -210 -167 rmoveto
+          -22 2 -31 6 -33 8 rrcurveto
+          405 hlineto
+          -106 -11 -158 -9 -55 4 rrcurveto
+          endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <BASE>
+    <Version value="0x00010000"/>
+    <HorizAxis>
+      <BaseTagList>
+        <!-- BaseTagCount=2 -->
+        <BaselineTag index="0" value="ideo"/>
+        <BaselineTag index="1" value="romn"/>
+      </BaseTagList>
+      <BaseScriptList>
+        <!-- BaseScriptCount=2 -->
+        <BaseScriptRecord index="0">
+          <BaseScriptTag value="hani"/>
+          <BaseScript>
+            <BaseValues>
+              <DefaultIndex value="0"/>
+              <!-- BaseCoordCount=2 -->
+              <BaseCoord index="0" Format="1">
+                <Coordinate value="-310"/>
+              </BaseCoord>
+              <BaseCoord index="1" Format="1">
+                <Coordinate value="0"/>
+              </BaseCoord>
+            </BaseValues>
+            <!-- BaseLangSysCount=0 -->
+          </BaseScript>
+        </BaseScriptRecord>
+        <BaseScriptRecord index="1">
+          <BaseScriptTag value="latn"/>
+          <BaseScript>
+            <BaseValues>
+              <DefaultIndex value="1"/>
+              <!-- BaseCoordCount=2 -->
+              <BaseCoord index="0" Format="1">
+                <Coordinate value="-310"/>
+              </BaseCoord>
+              <BaseCoord index="1" Format="1">
+                <Coordinate value="0"/>
+              </BaseCoord>
+            </BaseValues>
+            <!-- BaseLangSysCount=0 -->
+          </BaseScript>
+        </BaseScriptRecord>
+      </BaseScriptList>
+    </HorizAxis>
+  </BASE>
+
+  <GSUB>
+    <Version value="0x00010000"/>
+  </GSUB>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="93"/>
+    <mtx name="L" width="673" lsb="50"/>
+    <mtx name="space" width="600" lsb="0"/>
+    <mtx name="uni9053" width="1000" lsb="5"/>
+  </hmtx>
+
+  <DSIG>
+    <!-- note that the Digital Signature will be invalid after recompilation! -->
+    <tableHeader flag="0x0" numSigs="0" version="1"/>
+  </DSIG>
+
+</ttFont>
