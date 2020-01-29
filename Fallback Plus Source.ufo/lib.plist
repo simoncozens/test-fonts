@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.schriftgestaltung.DisplayStrings</key>
+	<array>
+		<string>/_uplus</string>
+	</array>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<false/>
+	<key>com.schriftgestaltung.fontMasterID</key>
+	<string>master01</string>
+	<key>com.schriftgestaltung.glyphOrder</key>
+	<false/>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<true/>
+	<key>public.glyphOrder</key>
+	<array>
+		<string>space</string>
+		<string>_three_0</string>
+		<string>_two_0</string>
+		<string>_one_6</string>
+		<string>_one_1</string>
+		<string>_one_0</string>
+		<string>_one_F</string>
+		<string>_one_D</string>
+		<string>_one_3</string>
+		<string>_one_2</string>
+		<string>_one_B</string>
+		<string>_one_E</string>
+		<string>_one_5</string>
+		<string>_one_9</string>
+		<string>_one_C</string>
+		<string>_uplus</string>
+		<string>_one_8</string>
+		<string>_one_4</string>
+		<string>_one_A</string>
+		<string>_one_7</string>
+	</array>
+</dict>
+</plist>

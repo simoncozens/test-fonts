@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_one_A" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="179" y="530" type="line"/>
+			<point x="223" y="530" type="line"/>
+			<point x="183" y="701" type="line"/>
+			<point x="117" y="701" type="line"/>
+			<point x="77" y="530" type="line"/>
+			<point x="121" y="530" type="line"/>
+			<point x="131" y="572" type="line"/>
+			<point x="169" y="572" type="line"/>
+		</contour>
+		<contour>
+			<point x="139" y="606" type="line"/>
+			<point x="150" y="654" type="line"/>
+			<point x="161" y="606" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-01-29 08:51:08 +0000</string>
+		</dict>
+	</lib>
+</glyph>

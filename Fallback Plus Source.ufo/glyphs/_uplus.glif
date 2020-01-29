@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_uplus" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="9" y="14" type="line"/>
+			<point x="592" y="14" type="line"/>
+			<point x="592" y="986" type="line"/>
+			<point x="9" y="986" type="line"/>
+		</contour>
+		<contour>
+			<point x="21" y="33" type="line"/>
+			<point x="21" y="967" type="line"/>
+			<point x="580" y="967" type="line"/>
+			<point x="580" y="33" type="line"/>
+		</contour>
+		<contour>
+			<point x="68" y="761" type="line"/>
+			<point x="232" y="761" type="line"/>
+			<point x="232" y="942" type="line"/>
+			<point x="188" y="942" type="line"/>
+			<point x="188" y="801" type="line"/>
+			<point x="112" y="801" type="line"/>
+			<point x="112" y="942" type="line"/>
+			<point x="68" y="942" type="line"/>
+		</contour>
+		<contour>
+			<point x="431" y="789" type="line"/>
+			<point x="470" y="789" type="line"/>
+			<point x="470" y="841" type="line"/>
+			<point x="522" y="841" type="line"/>
+			<point x="522" y="880" type="line"/>
+			<point x="470" y="880" type="line"/>
+			<point x="470" y="933" type="line"/>
+			<point x="431" y="933" type="line"/>
+			<point x="431" y="880" type="line"/>
+			<point x="378" y="880" type="line"/>
+			<point x="378" y="841" type="line"/>
+			<point x="431" y="841" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-01-29 10:22:58 +0000</string>
+		</dict>
+	</lib>
+</glyph>
