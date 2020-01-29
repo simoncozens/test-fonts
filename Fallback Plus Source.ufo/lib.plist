@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>com.schriftgestaltung.DisplayStrings</key>
-	<array>
-		<string>/_uplus</string>
-	</array>
+	<array/>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>
 	<key>com.schriftgestaltung.fontMasterID</key>
@@ -36,6 +34,7 @@
 		<string>_one_4</string>
 		<string>_one_A</string>
 		<string>_one_7</string>
+		<string>_spare</string>
 	</array>
 </dict>
 </plist>

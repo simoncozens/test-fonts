@@ -21,6 +21,15 @@ for h in hexes:
    g = f.layers[0].newGlyph("_six_"+h)
    g.appendComponent("_one_"+h, offset=(300,-500))
 
+# Generate spare glyphs for substitutions etc.
+for l in "0123456789":
+  for r in "0123456789":
+    g = f.layers[0].newGlyph("glyph"+l+r)
+    g.appendComponent("_spare")
+    g.appendComponent("_one_"+l)
+    g.appendComponent("_two_"+r)
+    g.width = 600
+
 # Now generate U+xx glyphs
 for l in hexes:
   for r in hexes:
