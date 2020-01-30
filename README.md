@@ -214,3 +214,50 @@ Here is the "without" version:
 L道
 </div>
 
+### [`FallbackPlus-Regular.otf`](https://simoncozens.github.io/test-fonts/FallbackPlus-Regular.otf)
+
+This font is designed as an "OpenType feature playground". It contains glyphs for all *assigned and named* Unicode codepoints from U+0000 to U+FFFF. The glyphs are self-describing, reflecting their codepoint. The idea is that this is a base font that you then add your own shaping rules to using [`addfeatures.py`](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py):
+
+        $ cat test.fea
+        feature calt {
+            sub uni0061 uni0062' uni0063 by uni0064;
+        } calt;
+        $ python3 addfeatures.py -o Fallback-abcd.otf FallbackPlus-Regular.otf test.fea
+        $ hb-shape Fallback-abcd.otf 'abc'
+        [uni0061=0+600|uni0064=1+600|uni0063=2+600]
+
+To allow you further leeway for testing rules, the font also includes 99 spare (unencoded) glyphs, named `glyph00`-`glyph99`:
+
+        $ cat test.fea
+        feature calt {
+            sub uni0061 uni0062 uni0063 by glyph01;
+            sub glyph01 by uni0063 uni0062 uni0061;
+            sub uni0064 by glyph02;
+        } calt;
+        $ python3 addfeatures.py -o Fallback-abcd.otf FallbackPlus-Regular.otf test.fea
+        $ hb-shape Fallback-abcd.otf
+        [uni0063=0+600|uni0062=0+600|uni0061=0+600|glyph02=3+600]
+
+Here's what the actual font looks like with a few random codepoints:
+
+<style>
+    @font-face {
+        font-family: "FallbackPlus";
+        src: url(https://simoncozens.github.io/test-fonts/FallbackPlus-Regular.otf?raw=true);
+    }
+</style>
+
+<div class="testfont" style="font-family:'FallbackPlus'">
+ⴶꖥǓ
+</div>
+
+
+#### Rebuilding the Fallback Plus font
+
+This is mainly for my own reference, because I'm going to forget, but may be useful if you want to subset or extend the range of glyphs. To build the font from the `Fallback Plus Source.ufo` file, first run `generate-fallback.py` to create `Fallback Plus.ufo`. Next run:
+
+    fontmake --optimize-cff 1 -u Fallback\ Plus.ufo -o otf --keep-overlaps
+
+This will produce an un-optimized OTF file in `master_otf`. Currently this file [breaks compreffor](https://github.com/googlefonts/compreffor/issues/144) if you use the default C++ implementation, so you have to use the slower but safer Python implementation instead:
+
+    compreffor --py master_otf/Fallback\ Plus.otf FallbackPlus-Regular.otf
