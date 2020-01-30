@@ -55,4 +55,22 @@ for one in hexes:
         g.appendComponent("_four_"+four)
         g.width = 600
 
+# Now generate U+xxxxx real glyphs
+
+for one in "1":
+  for two in hexes:
+    for three in hexes:
+      for four in hexes:
+        print("Generating %s%s%s%sX" % (one,two, three, four))
+        for five in hexes:
+          codepoint = int(one+two+three+four+five,16)
+          if not "Name" in ucd_data(codepoint): continue
+          g = f.layers[0].newGlyph("uni"+one+two+three+four+five)
+          g.unicode = codepoint
+          g.appendComponent("_uplus"+one+two)
+          g.appendComponent("_three_"+three)
+          g.appendComponent("_four_"+four)
+          g.appendComponent("_five_"+five)
+          g.width = 600
+
 f.save("Fallback Plus.ufo")

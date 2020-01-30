@@ -216,7 +216,7 @@ L道
 
 ### [`FallbackPlus-Regular.otf`](https://simoncozens.github.io/test-fonts/FallbackPlus-Regular.otf)
 
-This font is designed as an "OpenType feature playground". It contains glyphs for all *assigned and named* Unicode codepoints from U+0000 to U+FFFF. The glyphs are self-describing, reflecting their codepoint. The idea is that this is a base font that you then add your own shaping rules to using [`addfeatures.py`](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py):
+This font is designed as an "OpenType feature playground". It contains glyphs for all *assigned and named* Unicode codepoints from U+0000 to U+1FFFF (just over 32,000 glyphs in total). The glyphs are self-describing, reflecting their codepoint. The idea is that this is a base font that you then add your own shaping rules to using [`addfeatures.py`](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py):
 
         $ cat test.fea
         feature calt {
