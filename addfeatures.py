@@ -3,13 +3,13 @@ from fontTools.feaLib.builder import addOpenTypeFeatures
 from fontTools.ttLib import TTFont
 import sys
 
-from argparse import ArgumentParser
+from argparse import ArgumentParser, FileType
 
 parser = ArgumentParser()
 parser.add_argument("input",
                     help="font file to process", metavar="OTF")
-parser.add_argument("feature",
-                    help="feature file to add", metavar="FEA")
+parser.add_argument('feature', type=FileType('r'), default='-',nargs='?',
+                    help="feature file(s) to add", metavar="FEA")
 parser.add_argument("-o", dest="output",
                     help="path to output font", metavar="FILE")
 args = parser.parse_args()
