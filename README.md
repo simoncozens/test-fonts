@@ -238,6 +238,11 @@ To allow you further leeway for testing rules, the font also includes 99 spare (
         $ hb-shape Fallback-abcd.otf
         [uni0063=0+600|uni0062=0+600|uni0061=0+600|glyph02=3+600]
 
+The font is especially useful for understanding shaper behaviour when handling complex scripts. For example, here we see the way that the shaper, without any explicit rules from the font, reorders pre-base consonants in the Myanmar script to go before the base character:
+
+        $ hb-shape FallbackPlus-Regular.otf -u '1000 1001 103C'
+        [uni1000=0+600|uni103C=1+600|uni1001=1+600]
+
 Here's what the actual font looks like with a few random codepoints:
 
 <style>
