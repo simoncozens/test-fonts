@@ -1,0 +1,15 @@
+languagesystem arab dflt;
+
+# table GDEF {
+# 	GlyphClassDef [uni0628 uni06D2 uniFE91 uniFBAF], , [nukta], ;
+# } GDEF;
+
+feature init { sub uni0628 by uniFE91;       } init;
+feature fina { sub uni06D2 by uniFBAF;       } fina;
+feature ccmp { sub uni0628 by uni0628 nukta; } ccmp;
+
+feature curs {
+	lookupflag IgnoreMarks RightToLeft;
+                    pos cursive uniFBAF <anchor 701 525> <anchor NULL>;
+            pos cursive uniFE91 <anchor NULL> <anchor 11 100>;
+} curs;

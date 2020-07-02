@@ -1,0 +1,270 @@
+{
+.appVersion = "1322";
+DisplayStrings = (
+"/beh-ar.init/nukta",
+"",
+"/nukta",
+"/beh-ar.init/yehbarree-ar.fina",
+"/beh-ar.init",
+"/beh-ar",
+"/yehbarree-ar"
+);
+date = "2020-07-02 07:44:20 +0000";
+designer = "Simon Cozens";
+familyName = "Test Unattached Marks";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature init;\012feature fina;\012";
+name = aalt;
+},
+{
+code = "sub beh-ar by beh-ar nukta;";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub beh-ar by beh-ar.init;\012";
+name = init;
+},
+{
+automatic = 1;
+code = "sub yehbarree-ar by yehbarree-ar.fina;\012";
+name = fina;
+}
+);
+fontMaster = (
+{
+ascender = 700;
+capHeight = 700;
+descender = -300;
+id = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+userData = {
+GSCornerRadius = 25;
+};
+xHeight = 500;
+}
+);
+glyphs = (
+{
+glyphname = "beh-ar";
+lastChange = "2020-07-02 08:12:25 +0000";
+layers = (
+{
+layerId = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"250 0 LINE",
+"371 0 LINE",
+"171 500 LINE",
+"50 500 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 500 LINE",
+"65 0 LINE",
+"186 0 LINE",
+"386 500 LINE"
+);
+}
+);
+width = 436;
+}
+);
+unicode = 0628;
+},
+{
+glyphname = "beh-ar.init";
+lastChange = "2020-07-02 08:23:05 +0000";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{11, 190}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"387 580 LINE",
+"447 451 OFFCURVE",
+"586 250 OFFCURVE",
+"511 140 CURVE SMOOTH",
+"454 56 OFFCURVE",
+"211 25 OFFCURVE",
+"2 -6 CURVE",
+"-56 139 LINE",
+"44 161 OFFCURVE",
+"370 186 OFFCURVE",
+"370 255 CURVE SMOOTH",
+"370 354 OFFCURVE",
+"299 408 OFFCURVE",
+"265 506 CURVE"
+);
+}
+);
+};
+layerId = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"387 680 LINE",
+"447 551 OFFCURVE",
+"586 350 OFFCURVE",
+"511 240 CURVE SMOOTH",
+"454 156 OFFCURVE",
+"211 125 OFFCURVE",
+"2 94 CURVE",
+"-56 239 LINE",
+"44 261 OFFCURVE",
+"370 286 OFFCURVE",
+"370 355 CURVE SMOOTH",
+"370 454 OFFCURVE",
+"299 508 OFFCURVE",
+"265 606 CURVE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = FE91;
+},
+{
+glyphname = "yehbarree-ar";
+lastChange = "2020-07-02 08:12:55 +0000";
+layers = (
+{
+layerId = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"280 0 LINE",
+"401 0 LINE",
+"201 500 LINE",
+"80 500 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"295 500 LINE",
+"95 0 LINE",
+"216 0 LINE",
+"416 500 LINE"
+);
+}
+);
+width = 496;
+}
+);
+unicode = 06D2;
+},
+{
+glyphname = "yehbarree-ar.fina";
+lastChange = "2020-07-02 08:23:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{701, 515}";
+}
+);
+layerId = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"733 524 LINE",
+"409 477 OFFCURVE",
+"186 511 OFFCURVE",
+"186 366 CURVE SMOOTH",
+"186 204 OFFCURVE",
+"461 167 OFFCURVE",
+"657 167 CURVE SMOOTH",
+"845 167 OFFCURVE",
+"1097 201 OFFCURVE",
+"1403 270 CURVE",
+"1422 257 LINE",
+"1455 158 LINE",
+"1429 114 LINE",
+"1022 44 OFFCURVE",
+"826 15 OFFCURVE",
+"634 15 CURVE SMOOTH",
+"280 15 OFFCURVE",
+"37 110 OFFCURVE",
+"37 394 CURVE SMOOTH",
+"37 638 OFFCURVE",
+"242 622 OFFCURVE",
+"674 670 CURVE"
+);
+}
+);
+width = 849;
+}
+);
+unicode = FBAF;
+},
+{
+glyphname = nukta;
+lastChange = "2020-07-02 07:53:01 +0000";
+layers = (
+{
+layerId = "9BAB9734-27CC-4B03-8C1F-394169B94E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"217 -181 LINE SMOOTH",
+"206 -192 OFFCURVE",
+"201 -211 OFFCURVE",
+"219 -224 CURVE SMOOTH",
+"274 -263 LINE SMOOTH",
+"282 -269 OFFCURVE",
+"293 -268 OFFCURVE",
+"301 -262 CURVE SMOOTH",
+"364 -216 LINE SMOOTH",
+"375 -207 OFFCURVE",
+"381 -198 OFFCURVE",
+"357 -175 CURVE SMOOTH",
+"305 -125 LINE SMOOTH",
+"295 -115 OFFCURVE",
+"281 -114 OFFCURVE",
+"272 -124 CURVE SMOOTH"
+);
+}
+);
+width = 5;
+}
+);
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"9BAB9734-27CC-4B03-8C1F-394169B94E1A" = 1;
+};
+name = Regular;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
